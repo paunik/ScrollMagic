@@ -16,6 +16,7 @@ Tutorials:
 - basic tween
 - anchor navigation
 - swipe or wipe
+- parallax effects
 - using ScrollMagic with OnePageScroll
 - using ScrollMagic with Tween.js
 
