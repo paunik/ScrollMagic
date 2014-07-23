@@ -3,15 +3,15 @@ Don't worry - here's how you get help and solve your issues.
 
 ## 1. Make sure your console is clean.
 ScrollMagic posts a lot of useful debugging information to the console of your browser.
-So make sure to check it first, when looking for the problem.
+So make sure to check it first, when looking for the problem.  
 In Chrome the console is opened by clicking "View -> Developer -> JavaScript console".
 
 If no errors appear make use of ScrollMagic's debugging capabilities.
-Both the [controller class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.html#ScrollMagic) as well as the [scene class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) offer the `loglevel` option, which, when set to 3 will output even more useful information.
-Does the controller update, when you scroll?
+Both the [controller class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.html#ScrollMagic) as well as the [scene class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) offer the `loglevel` option, which, when set to 3 will output even more useful information.  
+Does the controller update, when you scroll?  
 Is your scene object behaving correctly?
 
-To get visual help you can also include the ScrollMagic debugging extension.
+To get visual help you can also include the ScrollMagic debugging extension.  
 Include the file into your html like this:
 ```html
 <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
@@ -23,6 +23,7 @@ With most tween-related problems the issue lies with TweenMax or a misuse thereo
 A best practice is usually to create your tweens but **do not** add them to the ScrollScene object using `setTween`.
 Now look at your site and see if the animation plays out the way you wanted to.
 If it doesn't the problem is obviously not with ScrollMagic.
+
 Check out the [Greensock Forums](http://forums.greensock.com/forum/11-animation-tweening-js/) to get help using TweenMax.
 
 Only once the animation plays like you want it to add it to the ScrollScene.
