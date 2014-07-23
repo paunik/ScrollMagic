@@ -21,7 +21,7 @@ And then use `scene.addIndicators()` to get visual indicators for where your sce
 ## 2. Tweens don't work as expected? Make sure it's a ScrollMagic issue!
 With most tween-related problems the issue lies with CSS, TweenMax or a misuse thereof.
 A best practice is usually to create your tweens but **do not** add them to the ScrollScene object using `setTween`.
-Now look at your site and see if the animation plays out the way you wanted to.
+Now look at your site and see if the animation plays out the way you wanted to.  
 If it doesn't the problem is obviously not with ScrollMagic.
 
 Check out the [Greensock Forums](http://forums.greensock.com/forum/11-animation-tweening-js/) to get help using TweenMax.
@@ -44,7 +44,7 @@ But in order for us to be able to do that and also for future users to benefit f
  - **Focus**: Only one issue per post, please.
  - **Caption**: Try to find a title that help other people to see what the post is about and avoid titles like "Problem with Scrolling" that really won't help anyone...
  - **Description**: Try to describe your problem as simple as possible and always keep in mind that the people reading it have no idea of your project and it's parameters. How would you explain it to someone who doesn't even know ScrollMagic?
- - **Format**: Use Paragraphs and structure your text using all the great features of [GitHub markdown](https://help.github.com/articles/github-flavored-markdown). pay special attention to the tripple ticks (```) followed by a language name to ensure syntax highlighting.
+ - **Format**: Use Paragraphs and structure your text using all the great features of [GitHub markdown](https://help.github.com/articles/github-flavored-markdown). pay special attention to the tripple ticks (```) followed by a language name to ensure [syntax highlighting](https://help.github.com/articles/github-flavored-markdown#syntax-highlighting).
  - **Code**: In almost all cases help can only be provided if the question is accompanied by the respective code. The VERY best way to do this is using [jsfiddle](http://jsfiddle.net/), [codepen](http://codepen.io/) or [Plunker](http://plnkr.co/edit). It provides an isolated showcase of the issue (which you already created in Step 3) and gives everyone else the opportunity to play around with the code to find out the problem. If feel you HAVE to post a link to your own environment, please make sure it's a special URL and try to keep it live even after development has finished. This way it will be available for future users with the same problem.
 
 Thank you for helping me maintain this project by abiding by these rules.
