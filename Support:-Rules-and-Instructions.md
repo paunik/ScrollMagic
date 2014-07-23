@@ -7,7 +7,7 @@ So make sure to check it first, when looking for the problem.
 In Chrome the console is opened by clicking "View -> Developer -> JavaScript console".
 
 If no errors appear make use of ScrollMagic's debugging capabilities.
-Both the [controller class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.html#ScrollMagic) as well as the [scene class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) offer the `loglevel` option, which, when set to 3 will output even more useful information.  
+Both the [controller class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.html#ScrollMagic) as well as the [scene class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) offer the `loglevel` option, which, when set to 3, will output even more useful information.  
 Does the controller update, when you scroll?  
 Is your scene object behaving correctly?
 
