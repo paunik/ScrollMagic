@@ -1,4 +1,4 @@
-Got stuck with your ScrollMagic page and don't know what went wrong?
+Got stuck with your ScrollMagic page and don't know what went wrong?  
 Don't worry - here's how you get help and solve your issues.
 
 ## 1. Make sure your console is clean.
