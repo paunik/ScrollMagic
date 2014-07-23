@@ -19,7 +19,7 @@ Include the file into your html like this:
 And then use `scene.addIndicators()` to get visual indicators for where your scene should start and stop.
 
 ## 2. Tweens don't work as expected? Make sure it's a ScrollMagic issue!
-With most tween-related problems the issue lies with TweenMax or a misuse thereof.
+With most tween-related problems the issue lies with CSS, TweenMax or a misuse thereof.
 A best practice is usually to create your tweens but **do not** add them to the ScrollScene object using `setTween`.
 Now look at your site and see if the animation plays out the way you wanted to.
 If it doesn't the problem is obviously not with ScrollMagic.
