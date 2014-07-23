@@ -39,7 +39,7 @@ Chances are someone already ran across something similar to what you are experie
 Make sure to use the [GitHub search](https://github.com/janpaepke/ScrollMagic/search) at the top of the page to find out.
 
 ## 5. Post your question in the issues section
-Once you completed steps 1 to 4. We'll be happy to help you with your problem.
+Once you completed steps 1 to 4. post your question [in the issues section](https://github.com/janpaepke/ScrollMagic/issues) and we'll be happy to help you with your problem.  
 But in order for us to be able to do that and also for future users to benefit from the solution we ask you to abide by these rules:
  - **Focus**: Only one issue per post, please.
  - **Caption**: Try to find titles that help other people to see what the post is about and avoid titles like "Problem with Scrolling" that really don't help anyone...
