@@ -28,7 +28,7 @@ Check out the [Greensock Forums](http://forums.greensock.com/forum/11-animation-
 
 Only once the animation plays like you want it to add it to the ScrollScene.
 
-_**TIPP:** If your animation is further down in the DOM and you can't reach it before it plays, make use of the `delay` option of TweenMax. Just don't forget to remove it once everything animates like you want it to._
+_**Hint:** If your animation is further down in the DOM and you can't reach it before it plays, make use of the `delay` option of TweenMax. Just don't forget to remove it once everything animates like you want it to._
 
 
 ## 3. Isolate the problem
