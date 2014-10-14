@@ -1,14 +1,14 @@
 ## Description
 This error occurs when two tweens animate the same property of an element and are triggered in short succession.
 
-A common example for this is using one scene to fade an element in and another to fade it out.
+A common example for this is using one scene to fade an element in and another to fade it out.  
 If the user scrolls very fast past them or uses the `home` and `end` keys to jump past them, visual errors occur like the element being stuck at 10% opacity.
 
 The phenomenon was first adequately discussed in [Issue 145](https://github.com/janpaepke/ScrollMagic/issues/145).
 
 ## Explanation
-In GSAP a tween will overwrite any previously running tween, as soon as it is triggered and has conflicting parameters. This is default behavior due to the setting of [`TweenLite.defaultOverwrite`](http://greensock.com/docs/#/HTML5/GSAP/TweenLite/defaultOverwrite/).
-Since the first tween most of the time has already entered render state and rendered its first frame, when the second is triggered, this will be the faulty start position for our second tween (and the explanation for the 'stuck at 10% opacity' behaviour).
+In GSAP a tween will overwrite any previously running tween, as soon as it is triggered and has conflicting parameters. This is default behavior due to the setting of [`TweenLite.defaultOverwrite`](http://greensock.com/docs/#/HTML5/GSAP/TweenLite/defaultOverwrite/).  
+Since the first tween most of the time has already entered render state and rendered its first frame, when the second is triggered, this will be the faulty start position for our second tween (and the explanation for the 'stuck at 10% opacity' behavior).
 
 ## Solution
 There are three possible approaches to resolve this issue:
@@ -16,7 +16,7 @@ There are three possible approaches to resolve this issue:
 ### A: Giving the scenes a duration
 This issue only occurs if the scenes have no duration and the tweens are just played.  
 So the easiest way to resolve it is by giving the scenes a duration and thus binding the animation to the scroll position.
-This is not always possible, so you'll have to check out __B__ or __C__.
+This is not always the desired behavior, so you'll have to check out __B__ or __C__.
 
 ### B: Disabling overwrite and using `fromTo()`
 For this solution the overwrite behavior needs to be disabled so tweens that are overwritten and only have one property aren't completely destroyed.
