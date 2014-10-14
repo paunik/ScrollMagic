@@ -10,14 +10,15 @@ The phenomenon was first adequately discussed in [Issue 145](https://github.com/
 In GSAP a tween will overwrite any previously running tween, as soon as it is triggered and has conflicting parameters. This is default behavior due to the setting of [`TweenLite.defaultOverwrite`](http://greensock.com/docs/#/HTML5/GSAP/TweenLite/defaultOverwrite/).  
 Since the first tween usually has already entered render state and rendered its first frame, when the second is triggered, this will be the faulty start position for our second tween (and the explanation for the 'stuck at 10% opacity' behavior).
 
-Using `fromTo` does not resolve the problem, because a tween that is overwritten and has no more properties to tween will be killed.
+Using `fromTo` does not resolve the problem, because a tween that is overwritten and has no more properties to tween, will be killed.
 
 ## Solution
 There are three possible approaches to resolve this issue:
 
 ### A: Giving the scenes a duration
 This issue only occurs if the scenes have no duration and the tweens are just played.  
-So the easiest way to resolve it is by giving the scenes a duration and thus binding the animation to the scroll position.
+So the easiest way to resolve it is by giving the scenes a duration and thus binding the animation to the scroll position.  
+To see it in action, click here: http://jsfiddle.net/1Lfqqbx0/
 
 This is not always the desired behavior, so you'll have to check out __B__ or __C__.
 
@@ -66,7 +67,7 @@ var scene2 = new ScrollScene({
     })
     .addTo(ctrl);
 ```
-To see it in action see click here: http://jsfiddle.net/L7qm9c8o/
+To see it in action, click here: http://jsfiddle.net/L7qm9c8o/
 
 ## How to decide
 The solution to chose much depends on the visual outcome you are trying to achieve.
