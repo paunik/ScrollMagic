@@ -15,14 +15,14 @@ Using `fromTo` does not resolve the problem, because a tween that is overwritten
 ## Solution
 There are three possible approaches to resolve this issue:
 
-### A: Giving the scenes a duration
+#### A: Giving the scenes a duration
 This issue only occurs if the scenes have no duration and the tweens are just played.  
 So the easiest way to resolve it is by giving the scenes a duration and thus binding the animation to the scroll position.  
 To see it in action, click here: http://jsfiddle.net/1Lfqqbx0/
 
 This is not always the desired behavior, so you'll have to check out __B__ or __C__.
 
-### B: Disabling overwrite and using `fromTo()`
+#### B: Disabling overwrite and using `fromTo()`
 For this solution the overwrite behavior needs to be disabled so tweens that are overwritten and only have one property aren't completely destroyed.  
 This can be done globally using `TweenLite.defaultOverwrite = false;` or individually by supplying the `overwrite` option to the tween (see example).  
 It is also important that all but the first tween get the option `immediateRender: false` so it will be the only one that is set to its start position upon init.  
@@ -44,7 +44,7 @@ var scene2 = new ScrollScene({
 ```
 You can check it out in detail here: http://jsfiddle.net/pv5tnymx/
 
-### C: Using `to()` inside of event listeners based on `scrollDirection`
+#### C: Using `to()` inside of event listeners based on `scrollDirection`
 With this solution we actually take advantage of GSAP's overwrite functionality. Instead of defining a tween and playing it forward or reverse, we just create a new one everytime we hit the trigger position.  
 The one that is currently running will be overwritten and stopped.  
 Unlike with solution __B__ the animation will always start from the current value.  
