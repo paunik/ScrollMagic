@@ -70,6 +70,6 @@ To see it in action see click here: http://jsfiddle.net/L7qm9c8o/
 
 ## How to decide
 The solution to chose much depends on the visual outcome you are trying to achieve.
-- Use __A__ if you don't care if the animation just plays and want the easiest possible fix.
+- Use __A__ if you don't care if the animation just plays or is bound to scroll position and want the easiest possible fix.
 - Use __B__ if you want the animations always to be played from a certain start or end point.
 - Use __C__ if you want the animations always to be played from the current start or end point.
