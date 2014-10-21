@@ -5,7 +5,7 @@
 ***
 
 Understanding:
-- Basics
+- [Basics](https://github.com/janpaepke/ScrollMagic/wiki/Basics)
 - Scene trigger position
 - Pins
 - Tweens (and their projected duration)
