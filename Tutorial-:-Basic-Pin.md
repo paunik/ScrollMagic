@@ -1,1 +1,3 @@
 [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Uses multiple scenes and a full viewport height set for each section.
+
+[Official ScrollMagic Basic Pin Example](http://janpaepke.github.io/ScrollMagic/examples/basic/simple_pinning.html)
