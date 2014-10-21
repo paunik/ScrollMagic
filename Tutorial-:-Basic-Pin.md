@@ -55,7 +55,9 @@ controller = new ScrollMagic();
 // Assign handler1 and add it to the Controller
 var scene = new ScrollScene({
   triggerElement: "#pinned-trigger1", // point of execution
-  duration: $(window).height()/2 // pin element for half the window height
+  duration: $(window).height() - 100, // pin element for the window height - 100
+  triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
+  reverse: true // allows the effect to trigger when scrolled in the reverse direction
 })
 .setPin("#pinned-element1") // the element we want to pin
 .addTo(controller);
@@ -74,4 +76,4 @@ controller.addScene([
 ]);
 ```
 
-If you notice I used ``$(window).height/2`` as a duration value. This means once we reach our trigger point keep the element fixed for 1/2 the window height. You could even use the offset values of elements as your points of execution. Be creative!
+If you notice I used ``$(window).height - 100`` as a duration value. This means once we reach our trigger point keep the element fixed for whatever the window height is minus 100. You could even use the offset values of elements as your points of execution. Be creative! Refer to the documentation above to fine tune your controlling of the pinned element.
