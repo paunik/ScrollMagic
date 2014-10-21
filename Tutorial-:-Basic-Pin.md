@@ -52,7 +52,7 @@ One your script is referenced you can begin to structure your project and set th
 // init controller
 controller = new ScrollMagic();
 
-// Assign handler1 and add it to the Controller
+// Assign handler and add it to the controller
 var scene = new ScrollScene({
   triggerElement: "#pinned-trigger1", // point of execution
   duration: $(window).height() - 100, // pin element for the window height - 100
@@ -62,7 +62,7 @@ var scene = new ScrollScene({
 .setPin("#pinned-element1") // the element we want to pin
 .addTo(controller);
 
-// Assign handler2 and add it to the Controller
+// Assign handler and add it to the Controller
 var scene2 = new ScrollScene({
   triggerElement: "#pinned-trigger2", // point of execution
   duration: 400 // pin the element for a total of 400px
