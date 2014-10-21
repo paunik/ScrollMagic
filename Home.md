@@ -1,7 +1,7 @@
 # TODO: Learning ScrollMagic
 
 ***
-**Currently there is nothing available here. If you are willing to contribute, please feel free to do so!**
+**A work in progress. If you're willing to contribute, please feel free to do so!**
 ***
 
 Understanding:
