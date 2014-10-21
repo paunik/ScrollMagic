@@ -3,6 +3,7 @@
 - [Official ScrollMagic Basic Pin Example](http://janpaepke.github.io/ScrollMagic/examples/basic/simple_pinning.html)
 
 **Documentation**
+- [ScrollScene Object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
 - [setPin Object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
 
 **Tutorial**
