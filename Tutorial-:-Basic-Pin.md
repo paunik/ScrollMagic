@@ -22,7 +22,7 @@ Now we can create our markup. Take note of the id values used as these will corr
 <main role="main">
   <section>
     <div>
-      <h1>Basic pinning.</h1>
+      <h1>Basic Pinning.</h1>
       <p>Durations are pinned for their respective pixels set as the duration value and released again.</p>
     </div>
   </section>
