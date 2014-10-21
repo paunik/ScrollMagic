@@ -12,7 +12,7 @@ Understanding:
 
 Tutorials:
 - [basic pin w/multiple scenes](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Pin)
-- basic tween
+- [basic tween w/multiple scenes](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Tween)
 - anchor navigation
 - swipe or wipe
 - parallax effects
