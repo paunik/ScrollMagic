@@ -3,7 +3,7 @@
 - [Official ScrollMagic Basic Pin Example](http://janpaepke.github.io/ScrollMagic/examples/basic/simple_pinning.html)
 
 **Documentation**
-[setPin Object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
+- [setPin Object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
 
 **Tutorial**
 To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing body tag like so…
