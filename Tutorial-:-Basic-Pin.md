@@ -2,8 +2,10 @@
 - [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Using multiple scenes and full viewport height for each section. This is the demo referenced for the explanation below.
 - [Official ScrollMagic Basic Pin Example](http://janpaepke.github.io/ScrollMagic/examples/basic/simple_pinning.html)
 
-**Exaplanation**
+**Documentation**
+[setPin Object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
 
+**Tutorial**
 To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing body tag like so…
 
 ```markup
