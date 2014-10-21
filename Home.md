@@ -11,7 +11,7 @@ Understanding:
 - Tweens (and their projected duration)
 
 Tutorials:
-- basic pin
+- [basic pin w/multiple scenes](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Pin)
 - basic tween
 - anchor navigation
 - swipe or wipe
