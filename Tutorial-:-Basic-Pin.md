@@ -76,4 +76,4 @@ controller.addScene([
 ]);
 ```
 
-If you notice I used ``$(window).height - 100`` as a duration value. This means once we reach our trigger point keep the element fixed for whatever the window height is minus 100. You could even use the offset values of elements as your points of execution. Be creative! Refer to the documentation above to fine tune your controlling of the pinned element.
+If you notice I used ``$(window).height - 100`` as a duration value. This means once the trigger is reached we keep the element fixed for whatever the ``window height - 100`` result is. You could even use the offset value of other elements as your points of execution. Be creative! Refer to the documentation above to fine tune your controlling of the pinned element and scene.
