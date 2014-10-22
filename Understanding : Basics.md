@@ -36,3 +36,16 @@ var scene = new ScrollScene({
   duration: 400 // pin the element for a total of 400px
 })
 ```
+
+### Scene Control Methods
+Setting up the scene is great and all but now we need to really get down to business and control it. This is where ScrollMagic's [Scene Control Methods](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#toc3) come into play. We can add these control methods to our scene's individually if we'd like.
+
+```javascript
+var scene = new ScrollScene({
+  triggerElement: "#pinned-trigger2", // point of execution
+  duration: 400 // pin the element for a total of 400px
+})
+.setPin("#pinned-element1"); // the element we want to pin
+```
+
+In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add this method to our ``ScrollScene()`` class.
