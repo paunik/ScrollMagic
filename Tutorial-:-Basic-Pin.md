@@ -47,7 +47,7 @@ Now we can create our markup. Take note of the id values used as these will corr
 </main>
 ```
 
-One your script is referenced you can begin to structure your project and set the trigger points. In this example below  we initiate the controller and then set property values for each scene defined.
+One your scripts are referenced and markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the controller and then set property values for each scene defined.
 ```javascript
 // init controller
 controller = new ScrollMagic();
