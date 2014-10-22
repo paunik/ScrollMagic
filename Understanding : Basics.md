@@ -67,7 +67,7 @@ controller.addScene([
 ]);
 ```
 
-In the example above we're using the var we defined for the ScrollMagic class called “``controller``” and using ``addScene([])`` to helps us insert our required scenes. You could also chain this using the addTo() method like so…
+In the example above we're using the var we defined for the ScrollMagic class called “``controller``” and using ``addScene([])`` to helps us insert our required scenes. You could also chain this using the ``addTo()`` method like so…
 
 ```javascript
 var scene = new ScrollScene({
