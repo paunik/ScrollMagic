@@ -8,6 +8,7 @@
 - [setTween Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setTween)
 
 **Tutorial**
+
 In order for you to Tween, ScrollMagic requires the use of [GreenSock's Animation Platform (GSP)](https://greensock.com/get-started-js) along with ScrollMagic and jQuery of course. For this tutorial we're specifically using [TweenMax](https://greensock.com/get-started-js).
 
 ```markup
