@@ -7,6 +7,7 @@
 - [setPin Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
 
 **Tutorial**
+
 To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing body tag like so…
 
 ```markup
