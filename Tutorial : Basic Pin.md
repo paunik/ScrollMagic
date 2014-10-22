@@ -1,30 +1,21 @@
-**Live Examples**
-- [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Using multiple scenes and full viewport height for each section. This is the demo referenced for the explanation below.
-- [Official ScrollMagic Basic Pin Example](http://janpaepke.github.io/ScrollMagic/examples/basic/simple_pinning.html)
+**Live Example**
+
+- [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Using multiple scenes and full viewport height for each section. This will be the demo referenced for the explanation below.
 
 **Documentation**
+
 - [ScrollScene Class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
 - [setPin Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
 
 **Tutorial**
 
-To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing body tag like so…
-
-```markup
-<script src="path/to/jsfolder/jquery.min.js"></script>
-<script src="path/to/jsfolder/jquery.scrollmagic.min.js"></script>
-</body>
-</html>
-```
-
-Now we can create our markup. Take note of the id values used as these will correlate to our points of execution and the elements we desire to pin.
+To start our example we're going to create the markup. Take note of the id values used as these will correlate to our points of execution and the elements we desire to pin.
 
 ```markup
 <main role="main">
   <section>
     <div>
-      <h1>Basic Pinning.</h1>
-      <p>Durations are pinned for their respective pixels set as the duration value and released again.</p>
+      <h1>Basic Pin</h1>
     </div>
   </section>
 
@@ -48,7 +39,7 @@ Now we can create our markup. Take note of the id values used as these will corr
 </main>
 ```
 
-One your scripts are referenced and markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the ScrollMagic controller, set property values for each scene and finally add them to the ScrollMagic controller.
+Once your markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the ScrollMagic controller with the variable called “controller”, set property values for each scene and finally add them to the ScrollMagic controller.
 ```javascript
 // init ScrollMagic Controller
 controller = new ScrollMagic();
