@@ -22,13 +22,13 @@ Scenes are created by using the [``ScrollScene()``](http://janpaepke.github.io/S
 var scene;
 ```
 
-In this case we've defined a variable called “scene” and now we'll give it a value which is init a new ScrollScene class.
+In this case we've defined a variable called “scene” and now we'll give it a value which is initializing a new ``ScrollScene()`` class.
 
 ```javascript
 var scene = new ScrollScene();
 ```
 
-Inside ``ScrollScene`` we can place an [object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) of associated properties and values available to us…
+Inside ``ScrollScene`` we can place an [object](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) of associated properties and values that are made available according to the [docs](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)…
 
 ```javascript
 var scene = new ScrollScene({
@@ -48,7 +48,7 @@ var scene = new ScrollScene({
 .setPin("#pinned-element1"); // the element we want to pin
 ```
 
-In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add it to our ``ScrollScene()`` class.
+In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add it to our ``ScrollScene()`` class. In this case the value passed in quotes as a string is the id of the element we wish to pin on scroll.
 
 ### Adding Scenes to Controller
 
@@ -67,7 +67,7 @@ controller.addScene([
 ]);
 ```
 
-In the example above we're using the var we defined for the ScrollMagic class called “``controller``” and using ``addScene([])`` to helps us insert our required scenes. You could also chain this using the ``addTo()`` method like so…
+In the example above we're using the var we defined for the ``ScrollMagic()`` class called “``controller``” and using ``addScene([])`` to helps us insert the scene we defined previously. You could also chain instead using the ``addTo()`` method on ``ScrollScene`` like so…
 
 ```javascript
 var scene = new ScrollScene({
