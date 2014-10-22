@@ -48,3 +48,61 @@ Now that our scripts are referenced we can begin to structure our markup by addi
   </section>
 </main>
 ```
+
+In the markup above we've included our trigger hooks as the id values and set our items we wish to animate with id hooks as well. When each trigger point is reached in the scroll the associated items will animate or “Tween” as the pros like to say.
+
+The final part of this recipe is setting up the config for the scroll event and animations. To do this we'll create our element's animation using the ``TweenMax.to()`` method, set the scene's triggers and finally add our scenes to the ScrollMagic controller.
+
+```javascript
+// Scale Animation Setup
+// .to('@target', @length, {@object})
+var scale_tween = TweenMax.to('#scale', 1, {
+  transform: 'scale(.75)',
+  ease: Linear.easeNone
+});
+
+// BG Animation Setup
+// .to('@target', @length, {@object})
+var bg_tween = TweenMax.to('#bg-trigger', 1, {
+  backgroundColor: '#FFA500',
+  ease: Linear.easeNone
+});
+
+// YoYo Animation Setup
+// .to(@target, @length, @object)
+var yoyo_tween = TweenMax.to('#yoyo-animation', 1, {
+  transform: 'scale(2)',
+  ease: Cubic.easeOut,
+  repeat: -1, // this negative value repeats the animation
+  yoyo: true // make it bounce…yo!
+});
+
+
+// init ScrollMagic Controller
+controller = new ScrollMagic();
+
+
+// Scale Scene
+var scale_scene = new ScrollScene({
+  triggerElement: '#scale-trigger'
+})
+.setTween(scale_tween);
+
+// Background Scene
+var bg_scene = new ScrollScene({
+  triggerElement: '#bg-trigger'
+})
+.setTween(bg_tween);
+
+// YoYo Scene
+var yoyo_scene = new ScrollScene({
+  triggerElement: '#yoyo-trigger'
+})
+.setTween(yoyo_tween);
+
+controller.addScene([
+  scale_scene,
+  bg_scene,
+  yoyo_scene
+]);
+```
