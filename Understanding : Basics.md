@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 ### Defining Scenes
 
-Scenes are created by using the [``ScrollScene()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) class. A ``ScrollScene`` defines where the controller should react and how. To create a scene we must first create a variable:
+Scenes are created by using the [``ScrollScene()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene) class. A ``ScrollScene`` defines where the controller should react and how. To create a scene we must create a variable:
 
 ```javascript
 var scene;
