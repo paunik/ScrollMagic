@@ -22,7 +22,7 @@ Scenes are created by using the [``ScrollScene()``](http://janpaepke.github.io/S
 var scene;
 ```
 
-In this case we've defined a var called “scene” and now we will give it a value which is init a new ScrollScene class.
+In this case we've defined a variable called “scene” and now we'll give it a value which is init a new ScrollScene class.
 
 ```javascript
 var scene = new ScrollScene();
@@ -38,7 +38,7 @@ var scene = new ScrollScene({
 ```
 
 ### Scene Control Methods
-Setting up the scene is great and all but now we need to really get down to business and control it. This is where ScrollMagic's [Scene Control Methods](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#toc3) come into play. We can add these control methods to our scene's individually if we'd like.
+Setting up the scene is great and all, but now we need to get down to business and control it. This is where ScrollMagic's [Scene Control Methods](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#toc3) come into play. We can add these control methods to our scene's individually like so…
 
 ```javascript
 var scene = new ScrollScene({
@@ -48,4 +48,4 @@ var scene = new ScrollScene({
 .setPin("#pinned-element1"); // the element we want to pin
 ```
 
-In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add this method to our ``ScrollScene()`` class.
+In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add it to our ``ScrollScene()`` class.
