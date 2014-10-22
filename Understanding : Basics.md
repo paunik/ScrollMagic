@@ -1,5 +1,5 @@
 ### Initial Setup
-To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing ``<body>`` tag. Each project will have at least one call to the ``ScrollMagic()`` class which is the main class needed once per scroll container. Refer to the code block below for an example of the said setup.
+To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing ``<body>`` tag. Each project will have at least one call to the ``ScrollMagic()`` class which is the main class needed once per scroll container. Refer to the code block below for an example of this setup.
 
 ```markup
 <script src="path/to/js/jquery.min.js"></script>
