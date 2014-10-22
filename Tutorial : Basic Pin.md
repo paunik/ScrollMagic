@@ -48,12 +48,12 @@ Now we can create our markup. Take note of the id values used as these will corr
 </main>
 ```
 
-One your scripts are referenced and markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the controller and then set property values for each scene defined.
+One your scripts are referenced and markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the ScrollMagic controller, set property values for each scene and finally add them to the ScrollMagic controller.
 ```javascript
-// init controller
+// init ScrollMagic Controller
 controller = new ScrollMagic();
 
-// Assign handler and add it to the controller
+// Scene Handler
 var scene = new ScrollScene({
   triggerElement: "#pinned-trigger1", // point of execution
   duration: $(window).height() - 100, // pin element for the window height - 100
@@ -62,13 +62,14 @@ var scene = new ScrollScene({
 })
 .setPin("#pinned-element1"); // the element we want to pin
 
-// Assign handler and add it to the Controller
+// Scene2 Handler
 var scene2 = new ScrollScene({
   triggerElement: "#pinned-trigger2", // point of execution
   duration: 400 // pin the element for a total of 400px
 })
 .setPin("#pinned-element2"); // the element we want to pin
 
+// Add Scenes to ScrollMagic Controller
 controller.addScene([
   scene,
   scene2
