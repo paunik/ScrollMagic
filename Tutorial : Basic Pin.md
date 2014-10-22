@@ -56,7 +56,7 @@ controller = new ScrollMagic();
 // Scene Handler
 var scene = new ScrollScene({
   triggerElement: "#pinned-trigger1", // point of execution
-  duration: $(window).height() - 100, // pin element for the window height - 100
+  duration: $(window).height() - 100, // pin element for the window height - 1
   triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
   reverse: true // allows the effect to trigger when scrolled in the reverse direction
 })
