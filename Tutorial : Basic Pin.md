@@ -59,16 +59,14 @@ var scene = new ScrollScene({
   triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
   reverse: true // allows the effect to trigger when scrolled in the reverse direction
 })
-.setPin("#pinned-element1") // the element we want to pin
-.addTo(controller);
+.setPin("#pinned-element1"); // the element we want to pin
 
 // Assign handler and add it to the Controller
 var scene2 = new ScrollScene({
   triggerElement: "#pinned-trigger2", // point of execution
   duration: 400 // pin the element for a total of 400px
 })
-.setPin("#pinned-element2") // the element we want to pin
-.addTo(controller);
+.setPin("#pinned-element2"); // the element we want to pin
 
 controller.addScene([
   scene,
