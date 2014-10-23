@@ -75,5 +75,5 @@ var scene = new ScrollScene({
   duration: 400 // pin the element for a total of 400px
 })
 .setPin("#pinned-element1") // the element we want to pin
-.addTo(scene); // Add Scene to ScrollMagic Controller
+.addTo(controller); // Add Scene to ScrollMagic Controller
 ```
