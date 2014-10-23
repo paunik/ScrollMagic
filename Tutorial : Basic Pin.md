@@ -39,7 +39,7 @@ To start our example we're going to create the markup. Take note of the id value
 </main>
 ```
 
-Once your markup is in place you can begin to structure your project and set the trigger points. In this example below  we initiate the ScrollMagic controller with the variable called “controller”, set property values for each scene and finally add them to the ScrollMagic controller.
+Now that we have our markup in place we can begin to structure the project and set our trigger points. In the example below we initiate the ScrollMagic controller with a variable called “controller”, set property values for each scene and finally add them to the ``ScrollMagic()`` class controller.
 ```javascript
 // init ScrollMagic Controller
 controller = new ScrollMagic();
