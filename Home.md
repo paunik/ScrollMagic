@@ -1,4 +1,4 @@
-# TODO: Learning ScrollMagic
+# Learning ScrollMagic
 
 ***
 **A work in progress. If you're willing to contribute, please feel free to do so!**
