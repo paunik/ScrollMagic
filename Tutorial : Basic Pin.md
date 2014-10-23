@@ -1,6 +1,6 @@
 **Live Example**
 
-- [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Using multiple scenes and full viewport height for each section. This will be the demo referenced for the explanation below. Please make sure you have read and/or understand the Basics of ScrollMagic in our [Basics](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics) section of this WIKI before going any further.
+- [Basic Pin Demo](http://codepen.io/grayghostvisuals/pen/f1d7268c88fd6011ba113ae93adf45f7): Using multiple scenes and full viewport height for each section. This will be the demo referenced for the explanation below. Please make sure you have read and/or understand the basics of ScrollMagic in our [Basics](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics) section of this WIKI before going any further.
 
 **Documentation**
 
