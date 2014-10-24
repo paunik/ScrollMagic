@@ -4,7 +4,7 @@
 **A work in progress. If you're willing to contribute, please feel free to do so!**
 ***
 
-**Understanding:**
+**Getting Started:**
 - [Basics](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics)
 - [Scene trigger position](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Scene-trigger-position)
 - Pins
