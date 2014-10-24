@@ -9,9 +9,10 @@ Here you can download them manually:
 ### Preparing Our Project
 
 We will assume an `index.html` file in the root folder of our project.
-Create folders for your CSS and Javascript files, like `/js` and `/css`.
-The Download package of ScrollMagic also contains the full documentation and all examples.
+Create folders for your CSS and Javascript files, like `/js` and `/css`.  
+The Download package of ScrollMagic also contains the full documentation and all examples.  
 The files that are relevant to us are located inside the `/js` folder. These files are:
+
  - __jquery.scrollmagic.js__<br>This is the main file for ScrollMagic. It is used during the development phase of your project, so it can give you helpful debugging information.
  - __jquery.scrollmagic.min.js__<br>After we finished the development we can replace the main ScrollMagic file with this minified version. It is lighter and thus loads faster.
  - __jquery.scrollmagic.debug.js__<br>This file is needed to help you visualize where your scenes are triggered. For more information see [Debugging](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Debugging)
@@ -19,7 +20,7 @@ The files that are relevant to us are located inside the `/js` folder. These fil
 Copy all the above files into the javascript folder of your project. Do the same with the GSAP and jQuery files.
 
 ### Initial Setup
-To get started you'll need to reference GSAP, jQuery and the ScrollMagic library in your HTML. 
+To get started you'll need to reference GSAP, jQuery and the ScrollMagic library in your HTML.  
 It has been common practice to add JS files just before the closing ``<body>`` tag, so they don't block the loading of the rest of your page. If you prefer to have them in your `<head>` section this would work just as well...
 ```markup
 <script src="path/to/js/gsap/TweenMax.min.js"></script>
