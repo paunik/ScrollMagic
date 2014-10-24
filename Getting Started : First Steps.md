@@ -25,8 +25,10 @@ It has been common practice to add JS files just before the closing ``<body>`` t
 ```html
 <script src="path/to/js/gsap/TweenMax.min.js"></script>
 <script src="path/to/js/jquery.min.js"></script>
-<script src="path/to/js/jquery.scrollmagic.js"></script> <!-- replace with minified version when development is finished -->
-<script src="path/to/js/jquery.scrollmagic.debug.js"></script> <!-- remove when development is finished -->
+<!-- should be replaced with minified version when development is finished -->
+<script src="path/to/js/jquery.scrollmagic.js"></script>
+<!-- should be removed when development is finished -->
+<script src="path/to/js/jquery.scrollmagic.debug.js"></script>
 <script>
    // this is where our code will go
 </script>
