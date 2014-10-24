@@ -1,7 +1,7 @@
 ### Getting All The Files
-We will need the necessary files for ScrollMagic, GSAP and jQuery.
+We will need the necessary files for ScrollMagic, GSAP and jQuery.  
 If you are using [bower](bower.io) you should know how to download all the necessary files.
-Here you can download them manually:
+Here you can download them manually:  
  - download ScrollMagic [here](https://github.com/janpaepke/ScrollMagic/archive/master.zip)
  - download GSAP [here](http://greensock.com/forums/files/getdownload/84-html5js-gsap/)
  - download jQuery [here](http://jquery.com/download)
