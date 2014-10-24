@@ -1,8 +1,8 @@
 [Home](https://github.com/janpaepke/ScrollMagic/wiki)
 
-#### Understanding
-[Basics](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics)  
-[Scene Trigger Position](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Scene-trigger-position)
+#### Getting Started
+[Basics](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Understanding-ScrollMagic)  
+[Scene Trigger Position](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Scene-trigger-position)
 
 #### Tutorials
 [Basic Pin](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Pin)  
