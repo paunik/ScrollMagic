@@ -1,9 +1,13 @@
 [Home](https://github.com/janpaepke/ScrollMagic/wiki)
 
 #### Getting Started
-[Basics](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Understanding-ScrollMagic)  
-[Scene Trigger Position](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Scene-trigger-position)
+- [First Steps](./Getting-Started-:-First-Steps)
+- [How to use ScrollMagic](./Getting-Started-:-How-to-use-ScrollMagic)
 
-#### Tutorials
-[Basic Pin](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Pin)  
-[Basic Tween](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Tween)  
+#### Understanding:
+- [Debugguging](./Understanding-:-Debugging)
+- [Scene trigger position](./Understanding-:-The-scene-trigger-position)
+
+#### Tutorials:
+- [basic pin w/multiple scenes](./Tutorial-:-Basic-Pin)
+- [basic tween w/multiple scenes](./Tutorial-:-Basic-Tween)
