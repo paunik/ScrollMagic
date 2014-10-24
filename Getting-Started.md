@@ -20,13 +20,14 @@ Copy all the above files into the javascript folder of your project. Do the same
 
 ### Initial Setup
 To get started you'll need to reference GSAP, jQuery and the ScrollMagic library in your HTML. 
-It has been common practice to add JS files just before the closing ``<body>`` tag, so they don't block the loading of the rest of your page.
+It has been common practice to add JS files just before the closing ``<body>`` tag, so they don't block the loading of the rest of your page. If you prefer to have them in your `<head>` section this would work just as well...
 ```markup
 <script src="path/to/js/jquery.min.js"></script>
 <script src="path/to/js/jquery.scrollmagic.min.js"></script>
 <script>
-
+   // this is where our code will go
 </script>
 </body>
 </html>
 ```
+Now we're ready to start! Continue with the [Basics of ScrollMagic](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics).
