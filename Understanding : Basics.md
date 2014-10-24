@@ -1,18 +1,16 @@
-### Initial Setup
-To get started you'll need to reference jQuery and the ScrollMagic library from your HTML doc just before the closing ``<body>`` tag. Each project will have at least one call to the ``ScrollMagic()`` class which is the main class needed once per scroll container. Refer to the code block below for an example of this setup.
+### How does ScrollMagic work?
+The principle design pattern of ScrollMagic is a __controller__[1] that has arbirtary number of __scenes__[2] attached to it.
+ 1. There is one __controller__ for each scroll container. In most cases there is only one controller and the scroll container is usually the browser window. But you can also use DIV elements for scrolling and even have multiple containers on your page. The controller also defines which direction should be scrolled (horizontal or vertical) and is responsible for keeping all scenes updated.
+ 2. A __scene__ defines what should happen when, meaning at which scroll position. It can trigger animations, pin an element, change element classes or anything else you might desire.
 
-```markup
-<script src="path/to/js/jquery.min.js"></script>
-<script src="path/to/js/jquery.scrollmagic.min.js"></script>
-<script>
-$(document).ready(function() {
-    // init ScrollMagic Controller
-    controller = new ScrollMagic();
-});
-</script>
-</body>
-</html>
+### Defining the Controller
+
+As mentioned above in most cases the scroll container is the browser window. To create a ScrollMagic controller with the default settings we use the main [`ScrollMagic()`](file:///Users/janpaepke/Desktop/ScrollMagic%20Project/ScrollMagic/docs/ScrollMagic.html#ScrollMagic) class.
+We create a new instance of it and assign it to a variable, so we can reference it later:
 ```
+var controller = new ScrollMagic();
+```
+That's it! Now for the more interesting part:
 
 ### Defining Scenes
 
