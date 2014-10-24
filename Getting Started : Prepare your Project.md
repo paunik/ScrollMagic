@@ -8,7 +8,7 @@ Here you can download them manually:
 
 ### Preparing the Project
 
-We will assume an `index.html` file in the root folder of our project.
+We will assume an `index.html` file in the root folder of our project.  
 Create folders for your CSS and Javascript files, like `/js` and `/css`.  
 The Download package of ScrollMagic also contains the full documentation and all examples.  
 The files that are relevant to us are located inside the `/js` folder. These files are:
@@ -33,4 +33,4 @@ It has been common practice to add JS files just before the closing ``<body>`` t
 </body>
 </html>
 ```
-Now we're ready to start! Continue with the [Basics of ScrollMagic](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics).
+Now we're ready to start! Continue with the [Basics of ScrollMagic](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Understanding-ScrollMagic).
