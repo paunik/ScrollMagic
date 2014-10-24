@@ -15,7 +15,7 @@ The files that are relevant to us are located inside the `/js` folder. These fil
 
  - __jquery.scrollmagic.js__<br>This is the main file for ScrollMagic. It is used during the development phase of your project, so it can give you helpful debugging information.
  - __jquery.scrollmagic.min.js__<br>After we finished the development we can replace the main ScrollMagic file with this minified version. It is lighter and thus loads faster.
- - __jquery.scrollmagic.debug.js__<br>This file is needed to help you visualize where your scenes are triggered. For more information see [Debugging](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Debugging)
+ - __jquery.scrollmagic.debug.js__<br>This file is needed to help you visualize where your scenes are triggered. For more information see [Debugging](./Understanding-:-Debugging)
 
 Copy all the above files into the javascript folder of your project. Do the same with the GSAP and jQuery files.
 
@@ -33,4 +33,4 @@ It has been common practice to add JS files just before the closing ``<body>`` t
 </body>
 </html>
 ```
-Now we're ready to start! Continue with the [Basics of ScrollMagic](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-Understanding-ScrollMagic).
+Now we're ready to start! Continue with the [Basics of ScrollMagic](./Getting-Started-:-How-to-use-ScrollMagic).
