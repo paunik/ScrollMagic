@@ -6,7 +6,7 @@ Here you can download them manually:
  - download GSAP [here](http://greensock.com/forums/files/getdownload/84-html5js-gsap/)
  - download jQuery [here](http://jquery.com/download)
 
-### Preparing Our Project
+### Preparing the Project
 
 We will assume an `index.html` file in the root folder of our project.
 Create folders for your CSS and Javascript files, like `/js` and `/css`.  
