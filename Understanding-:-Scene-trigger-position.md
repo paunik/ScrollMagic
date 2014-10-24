@@ -13,7 +13,7 @@ Inside this ScrollScene class we can pass an object of key/value pairs that are 
 ```javascript
 var scene = new ScrollScene({
   triggerElement: '#scroll-trigger' // point of execution
-})
+});
 ```
 
 As you can see in the example above we've used the ``triggerElement`` property option provided by ScrollMagic. The value for ``triggerElement`` will be a selector, DOM object or jQuery Object that defines the start of the scene. If undefined the scene will start right at the start of the page (unless an offset is set). In our case we use the id value of a DOM node.\
