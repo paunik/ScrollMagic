@@ -7,7 +7,7 @@ Contributors: [Jan Paepke](//github.com/janpaepke), [Dennis Gaebel](//github.com
 
 ***
 __This is a work in progress.__  
-If you're willing to contribute, please feel free to do so!
+If you're willing to contribute, please [reach out](mailto:e-mail@janpaepke.de?subject=ScrollMagic Wiki)!
 ***
 
 
