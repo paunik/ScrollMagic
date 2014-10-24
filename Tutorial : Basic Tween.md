@@ -63,7 +63,7 @@ var scale_tween = TweenMax.to('#scale-animation', 1, {
 
 // BG Animation Setup
 // .to('@target', @length, {@object})
-var bg_tween = TweenMax.to('#bg-animation', 1, {
+var bg_tween = TweenMax.to('#bg-trigger', 1, {
   backgroundColor: '#FFA500',
   ease: Linear.easeNone
 });
