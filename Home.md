@@ -4,15 +4,19 @@
 **A work in progress. If you're willing to contribute, please feel free to do so!**
 ***
 
+**Getting Started:**
+- [First Steps](Getting-Started-:-First-Steps)
+- [How to use ScrollMagic](Getting-Started-:-How-to-use-ScrollMagic)
+
 **Understanding:**
-- [Basics](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Basics)
-- [Scene trigger position](https://github.com/janpaepke/ScrollMagic/wiki/Understanding-:-Scene-trigger-position)
+- [Debugguging](Understanding-:-Debugging)
+- [Scene trigger position](Understanding-:-The-scene-trigger-position)
 - Pins
 - Tweens (and their projected duration)
 
 **Tutorials:**
-- [basic pin w/multiple scenes](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Pin)
-- [basic tween w/multiple scenes](https://github.com/janpaepke/ScrollMagic/wiki/Tutorial-:-Basic-Tween)
+- [basic pin w/multiple scenes](Tutorial-:-Basic-Pin)
+- [basic tween w/multiple scenes](Tutorial-:-Basic-Tween)
 - anchor navigation
 - swipe or wipe
 - parallax effects
