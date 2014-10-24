@@ -30,13 +30,13 @@ Now that our scripts are referenced we can begin to structure our markup by addi
   </section>
 
   <section id="scale-trigger">
-    <div id="scale">
+    <div id="scale-animation">
       <p>This element will scale down using the scale value of the CSS transform property.</p>
     </div>
   </section>
 
   <section id="bg-trigger">
-    <div id="background">
+    <div id="bg-animation">
       <p>This element will have the background color change</p>
     </div>
   </section>
@@ -56,14 +56,14 @@ The final part of this recipe is setting up the config for the scroll event and 
 ```javascript
 // Scale Animation Setup
 // .to('@target', @length, {@object})
-var scale_tween = TweenMax.to('#scale', 1, {
+var scale_tween = TweenMax.to('#scale-animation', 1, {
   transform: 'scale(.75)',
   ease: Linear.easeNone
 });
 
 // BG Animation Setup
 // .to('@target', @length, {@object})
-var bg_tween = TweenMax.to('#bg-trigger', 1, {
+var bg_tween = TweenMax.to('#bg-animation', 1, {
   backgroundColor: '#FFA500',
   ease: Linear.easeNone
 });
