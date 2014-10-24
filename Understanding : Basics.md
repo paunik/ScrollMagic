@@ -22,7 +22,7 @@ Scenes are created by using the [``ScrollScene()``](http://janpaepke.github.io/S
 var scene;
 ```
 
-In this case we've defined a variable called “scene” and now we'll give it a value which is initializing a new ``ScrollScene()`` class.
+In this case we've defined a variable called “scene” and now we'll give it a value that will initialize a new ``ScrollScene()`` class.
 
 ```javascript
 var scene = new ScrollScene();
@@ -32,7 +32,7 @@ Inside ``ScrollScene`` we can place an [object](http://janpaepke.github.io/Scrol
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: "#pinned-trigger2", // point of execution
+  triggerElement: '#pinned-trigger1', // point of execution
   duration: 400 // pin the element for a total of 400px
 })
 ```
@@ -42,10 +42,10 @@ Setting up the scene is great and all, but now we need to get down to business a
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: "#pinned-trigger2", // point of execution
+  triggerElement: '#pinned-trigger1', // point of execution
   duration: 400 // pin the element for a total of 400px
 })
-.setPin("#pinned-element1"); // the element we want to pin
+.setPin('#pinned-element1'); // the element we want to pin
 ```
 
 In the example above we're using a technique called ”chaining” with the [``setPin()``](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin) method in order to add it to our ``ScrollScene()`` class. In this case the value passed in quotes as a string is the id of the element we wish to pin on scroll.
@@ -56,10 +56,10 @@ In order to tell ScrollMagic what we want to do we have to add our scene and it'
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: "#pinned-trigger2", // point of execution
+  triggerElement: '#pinned-trigger1', // point of execution
   duration: 400 // pin the element for a total of 400px
 })
-.setPin("#pinned-element1"); // the element we want to pin
+.setPin('#pinned-element1'); // the element we want to pin
 
 // Add Scene to ScrollMagic Controller
 controller.addScene([
@@ -67,13 +67,31 @@ controller.addScene([
 ]);
 ```
 
-In the example above we're using the var we defined for the ``ScrollMagic()`` class called “``controller``” and using ``addScene([])`` to helps us insert the scene we defined previously. You could also chain instead using the ``addTo()`` method on ``ScrollScene`` like so…
+If you desire multiple scenes you can pass them to the controller just as the example shows below:
+
+```javascript
+// Add Scene to ScrollMagic Controller
+controller.addScene([
+  scene1,
+  scene2,
+  scene3
+]);
+```
+
+Since we're using the var we defined for the ``ScrollMagic()`` class called “``controller``,” ``addScene([])`` will help insert the scenes we've defined. You could also chain instead using the ``addTo()`` method on ``ScrollScene`` like so…
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: "#pinned-trigger2", // point of execution
+  triggerElement: '#pinned-trigger1', // point of execution
   duration: 400 // pin the element for a total of 400px
 })
-.setPin("#pinned-element1") // the element we want to pin
+.setPin('#pinned-element1') // the element we want to pin
+.addTo(controller); // Add Scene to ScrollMagic Controller
+
+var scene2 = new ScrollScene({
+  triggerElement: '#pinned-trigger2', // point of execution
+  duration: 600 // pin the element for a total of 400px
+})
+.setPin('#pinned-element2') // the element we want to pin
 .addTo(controller); // Add Scene to ScrollMagic Controller
 ```
