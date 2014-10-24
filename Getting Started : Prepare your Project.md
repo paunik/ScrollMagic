@@ -1,4 +1,4 @@
-### Getting All The Files
+### Getting all the Files
 We will need the necessary files for ScrollMagic, GSAP and jQuery.  
 If you are using [bower](bower.io) you should know how to download all the necessary files.
 Here you can download them manually:  
