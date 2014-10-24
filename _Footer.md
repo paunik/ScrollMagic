@@ -1,5 +1,1 @@
-
-
-----
-
 If you found a mistake or have a suggestion for improvement, please [raise an issue](../issues/new).
