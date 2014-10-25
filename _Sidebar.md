@@ -13,7 +13,7 @@ Pins
 #### Tutorials:
 [basic pin w/multiple scenes](./Tutorial-:-Basic-Pin)  
 [basic tween w/multiple scenes](./Tutorial-:-Basic-Tween)  
-anchor navigation  
+[anchor navigation](./Tutorial-:-Anchor-Navigation)
 swipe or wipe  
 parallax effects  
 using ScrollMagic with OnePageScroll  
