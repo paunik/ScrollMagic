@@ -14,7 +14,7 @@ Pins
 - [basic pin w/multiple scenes](./Tutorial-:-Basic-Pin)
 - [basic tween w/multiple scenes](./Tutorial-:-Basic-Tween)
 - [anchor navigation](./Tutorial-:-Anchor-Navigation)
-- [swipe or wipe ](#)
-- [parallax effects](#)
-- [using ScrollMagic with OnePageScroll ](#)
-- [using ScrollMagic with Tween.js ](#)
+- swipe or wipe
+- parallax effects
+- using ScrollMagic with OnePageScroll
+- using ScrollMagic with Tween.js
