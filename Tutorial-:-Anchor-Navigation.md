@@ -5,7 +5,7 @@
 **Documentation**
 
 - [ScrollScene](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
-- [GSAP ScrollToPlugin](https://greensock.com/ScrollToPlugin)
+- [GreenSock ScrollToPlugin](https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin)
 
-**Tutorial**
-COMING SOON
+**Tutorial**	
+(*Coming Soon*)
