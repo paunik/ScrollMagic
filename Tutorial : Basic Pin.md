@@ -11,7 +11,7 @@
 
 To start our example we're going to create the markup. Take note of the id values used as these will correlate to our points of execution and the elements we desire to pin.
 
-```markup
+```html
 <main role="main">
   <section>
     <div>
