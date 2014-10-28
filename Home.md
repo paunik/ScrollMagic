@@ -1,6 +1,6 @@
 # Learning ScrollMagic
 
-Welcome to the ScrollMagic learning resource.  
+Welcome to the ScrollMagic learning ressource.  
 Please use the menu on the right to navigate.
 
 ***
