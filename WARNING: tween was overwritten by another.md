@@ -18,7 +18,7 @@ There are three possible approaches to resolve this issue:
 #### A: Giving the scenes a duration
 This issue only occurs if the scenes have no duration and the tweens are just played.  
 So the easiest way to resolve it is by giving the scenes a duration and thus binding the animation to the scroll position.  
-To see it in action, click here: http://jsfiddle.net/1Lfqqbx0/
+To see it in action, click here: http://jsfiddle.net/acz2kywu/
 
 This is not always the desired behavior, so you'll have to check out __B__ or __C__.
 
@@ -42,7 +42,7 @@ var scene2 = new ScrollScene({
     .setTween(TweenMax.fromTo($s, 0.2, {opacity: 1}, {opacity: 0, immediateRender: false}))
     .addTo(ctrl);
 ```
-You can check it out in detail here: http://jsfiddle.net/pv5tnymx/
+You can check it out in detail here: http://jsfiddle.net/4shLkytd/
 
 #### C: Using `to()` inside of event listeners based on `scrollDirection`
 With this solution we actually take advantage of GSAP's overwrite functionality. Instead of defining a tween and playing it forward or reverse, we just create a new one everytime we hit the trigger position.  
@@ -67,7 +67,7 @@ var scene2 = new ScrollScene({
     })
     .addTo(ctrl);
 ```
-To see it in action, click here: http://jsfiddle.net/L7qm9c8o/
+To see it in action, click here: http://jsfiddle.net/m4qcp1L4/
 
 ## How to decide
 The solution to chose much depends on the visual outcome you are trying to achieve.
