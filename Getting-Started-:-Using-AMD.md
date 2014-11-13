@@ -26,7 +26,9 @@ To use ScrollMagic in your setup you need to use these references as constructor
 Example:
 ```js
 require('ScrollMagic', 'ScrollMagic.debug'], function(ScrollMagic) {
-    var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onCenter"}});
+    var controller = new ScrollMagic.Controller({
+            globalSceneOptions: {triggerHook: "onCenter"}
+        });
     var scene = new ScrollMagic.Scene({
             duration: 300,
             offset: 100
