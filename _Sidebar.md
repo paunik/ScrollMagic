@@ -3,7 +3,7 @@
 #### Getting Started
 [First Steps](./Getting-Started-:-First-Steps)  
 [How to use ScrollMagic](./Getting-Started-:-How-to-use-ScrollMagic)  
-[Using AMD (i.e. requirejs)](./Getting-Started-:-Using-Module-Loaders)  
+[Using AMD (i.e. requirejs)](./Getting-Started-:-Using-AMD)  
 
 #### Understanding:
 Tweens (and their projected duration)  
