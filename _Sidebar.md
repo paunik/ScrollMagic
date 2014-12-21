@@ -9,7 +9,7 @@
 Tweens (and their projected duration)  
 Pins  
 [Scene trigger position](./Understanding-:-The-scene-trigger-position)  
-[Debugguging](./Understanding-:-Debugging)  
+[Debugging](./Understanding-:-Debugging)  
 
 #### Tutorials:
 [basic pin w/multiple scenes](./Tutorial-:-Basic-Pin)  
