@@ -26,7 +26,7 @@ These options describe the behavior of our Scene and in order to figure out what
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: '#pinned-trigger1', // starting point of the scene
+  offset: 100, // start scene after scrolling for 100px
   duration: 400 // pin the element for 400px of scrolling
 })
 ```
@@ -36,7 +36,7 @@ In order to have the scenes react to the scrolling of the container we have to a
 
 ```javascript
 var scene = new ScrollScene({
-  triggerElement: '#trigger1', // point of execution
+  triggerElement: '#pinned-trigger1', // starting scene, when reaching this element
   duration: 400 // pin the element for a total of 400px
 })
 .setPin('#pinned-element1'); // the element we want to pin
