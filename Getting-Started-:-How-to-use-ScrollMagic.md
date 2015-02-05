@@ -1,5 +1,5 @@
 ### How does ScrollMagic work?
-The principle design pattern of ScrollMagic is a __controller__[1] that has arbirtary number of __scenes__[2] attached to it.
+The principle design pattern of ScrollMagic is a __controller__[1] that has an arbirtary number of __scenes__[2] attached to it.
  1. There is one __controller__ for each scroll container. In most cases there is only one controller object and the scroll container is the browser window. But you can also use DIV elements for scrolling and even have multiple containers on your page. The controller also defines which direction should be scrolled (horizontal or vertical) and is responsible for keeping all scenes updated.
  2. A __scene__ defines what should happen when, meaning at which scroll position. It can trigger animations, pin an element, change element classes or anything else you might desire.
 
