@@ -11,7 +11,7 @@ To begin we create a variable called “scene” and initiate a new ``ScrollMagi
 var scene = new ScrollMagic.Scene();
 ```
 
-Inside this ScrollMagic.Scene class we can pass an object of key/value pairs that are provided to us per the [docs](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene).
+Inside this ``ScrollMagic.Scene`` class we can pass an object of key/value pairs that are provided to us per the [docs](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene).
 
 ```javascript
 var scene = new ScrollMagic.Scene({
