@@ -4,16 +4,17 @@
 
 **Documentation**
 
-- [ScrollScene](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
+- [ScrollScene](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.Scene.html#constructor)
 - [GreenSock ScrollToPlugin](https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin)
 
 **Tutorial**	
 As we learned in [Getting Started](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-First-Steps) about including the TweenMax library we also need to include GreenSock's **ScrollToPlugin**.
 
 ```html
-<script src="TweenMax.js"></script>
+<script src="TweenMax.min.js"></script>
+<script src="ScrollMagic.min.js"></script>
+<script src="plugins/animation.gsap.js"></script>
 <script src="ScrollToPlugin.js"></script>
-<script src="ScrollMagic.js"></script>
 </body>
 </html>
 ```
@@ -36,7 +37,7 @@ Our anchor tag's ``href`` attributes for the navigation will contain the hash or
 Now that our anchors match to the id of our sections we can begin setting up the JavaScript for the action itself. First we'll initialize the ScrollMagic class along with chaining our controller with the [scrollTo](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.html#scrollTo) control method.
 
 ```javascript
-var controller = new ScrollMagic();
+var controller = new ScrollMagic.Controller();
 controller.scrollTo(function(target) {});
 ```
 
@@ -46,7 +47,7 @@ Inside the scrollTo control method we'll add ``TweenMax`` to the function body. 
 
 ```javascript
 // Init controller
-var controller = new ScrollMagic();
+var controller = new ScrollMagic.Controller();
 
 // Change behavior of controller
 // to animate scroll instead of jump
