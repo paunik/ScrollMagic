@@ -4,8 +4,8 @@
 
 **Documentation**
 
-- [ScrollScene Class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
-- [setPin Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setPin)
+- [ScrollMagic.Scene Class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.Scene.html#constructor)
+- [setPin Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.Scene.html#setPin)
 
 **Tutorial**
 
@@ -42,10 +42,10 @@ To start our example we're going to create the markup. Take note of the id value
 Now that we have our markup in place we can begin to structure the project and set our trigger points. In the example below we initiate the ScrollMagic controller with a variable called “controller”, set property values for each scene and finally add them to the ``ScrollMagic()`` class controller.
 ```javascript
 // init ScrollMagic Controller
-controller = new ScrollMagic();
+var controller = new ScrollMagic.Controller();
 
 // Scene Handler
-var scene = new ScrollScene({
+var scene = new ScrollMagic.Scene({
   triggerElement: "#pinned-trigger1", // point of execution
   duration: $(window).height() - 100, // pin element for the window height - 1
   triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
@@ -54,7 +54,7 @@ var scene = new ScrollScene({
 .setPin("#pinned-element1"); // the element we want to pin
 
 // Scene2 Handler
-var scene2 = new ScrollScene({
+var scene2 = new ScrollMagic.Scene({
   triggerElement: "#pinned-trigger2", // point of execution
   duration: 400 // pin the element for a total of 400px
 })
