@@ -8,13 +8,13 @@ Let's go through them one by one.
 To begin we create a variable called “scene” and initiate a new ``ScrollScene()`` class.
 
 ```javascript
-var scene = new ScrollScene();
+var scene = new ScrollMagic.Scene();
 ```
 
 Inside this ScrollScene class we can pass an object of key/value pairs that are provided to us per the [docs](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene).
 
 ```javascript
-var scene = new ScrollScene({
+var scene = new ScrollMagic.Scene({
   triggerElement: '#scroll-trigger' // point of execution
 });
 ```
