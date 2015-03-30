@@ -4,17 +4,18 @@
 
 **Documentation**
 - [TweenMax.to Method](https://greensock.com/asdocs/com/greensock/TweenMax.html#to())
-- [ScrollScene Class](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#ScrollScene)
-- [setTween Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollScene.html#setTween)
+- [ScrollMagic.Scene Class](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.Scene.html)
+- [setTween Control Method](http://janpaepke.github.io/ScrollMagic/docs/ScrollMagic.Scene.html#setTween)
 
 **Tutorial**
 
-In order for you to Tween, ScrollMagic requires the use of [GreenSock's Animation Platform (GSP)](https://greensock.com/get-started-js) along with ScrollMagic and jQuery of course. For this tutorial we're specifically using [TweenMax](https://greensock.com/get-started-js).
+For this Tween tutorial I'll use the [GreenSock Animation Platform (GSAP)](https://greensock.com/get-started-js) TweenMax library along with ScrollMagic and jQuery.
 
 ```html
 <script src="path/to/js/jquery.min.js"></script>
 <script src="path/to/js/TweenMax.min.js"></script>
-<script src="path/to/js/jquery.scrollmagic.min.js"></script>
+<script src="path/to/js/ScrollMagic.min.js"></script>
+<script src="plugins/animation.gsap.js"></script>
 </body>
 </html>
 ```
@@ -79,23 +80,23 @@ var yoyo_tween = TweenMax.to('#yoyo-animation', 1, {
 
 
 // init ScrollMagic Controller
-controller = new ScrollMagic();
+var controller = new ScrollMagic.Controller();
 
 
 // Scale Scene
-var scale_scene = new ScrollScene({
+var scale_scene = new ScrollMagic.Scene({
   triggerElement: '#scale-trigger'
 })
 .setTween(scale_tween);
 
 // Background Scene
-var bg_scene = new ScrollScene({
+var bg_scene = new ScrollMagic.Scene({
   triggerElement: '#bg-trigger'
 })
 .setTween(bg_tween);
 
 // YoYo Scene
-var yoyo_scene = new ScrollScene({
+var yoyo_scene = new ScrollMagic.Scene({
   triggerElement: '#yoyo-trigger'
 })
 .setTween(yoyo_tween);
