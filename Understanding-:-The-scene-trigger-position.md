@@ -5,7 +5,7 @@ There are three parameters that in combination make up this "starting position":
 
 Let's go through them one by one.
 
-To begin we create a variable called “scene” and initiate a new ``ScrollScene()`` class.
+To begin we create a variable called “scene” and initiate a new ``ScrollMagic.Scene()`` class.
 
 ```javascript
 var scene = new ScrollMagic.Scene();
