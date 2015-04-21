@@ -18,4 +18,8 @@ Pins
 swipe or wipe  
 parallax effects  
 using ScrollMagic with OnePageScroll  
-using ScrollMagic with Tween.js  
+using ScrollMagic with Tween.js
+
+## Getting Started (v2)
+
+1. [Setup](./Get-Started-Setup)
