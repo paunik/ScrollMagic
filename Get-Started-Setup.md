@@ -2,6 +2,8 @@ Hi there, and welcome to the Scrollmagic **Get Started** guide where you'll lear
 
 In this first section we're going to cover the setup of our page. To create our animations, we are going to rely on two things : building the animations to play and defining when to play them. There are several different options when deciding the tool to use for the first, ScrollMagic on the other hand is responsible for the second one. I hope that makes sense.
 
+**Please note** that this is an introduction to ScrollMagic. Optimizations such as code concatenation and minification are left to you to take care of later on, right now we'll focus on having something to play with as soon as possible, not the cleanest most ideal setup ever.
+
 Through out this guide I'll focus on working with GSAP, as I believe it to be the most flexible solution (more on that later), however please note that ScrollMagic can also work with other animation libraries, including the well-known, fast Velocity.js library.
 
 Okay, now that we're all clear let's see what we need to get started.
