@@ -186,4 +186,4 @@ Now, if you scroll, you'll notice that once the "trigger" thick reaches the "sta
 
 In other words, when the middle of our pages (shown as the "trigger") reaches the top of the `triggerElement` of our Scene, it plays the `blockTween` associated to it.
 
-Neat right ? Cool, in the next chapter we'll take a look at Pins, it's be great too, you'll see.
+Neat right ? Cool, in the next chapter we'll take a look at Pins, it'll be great too, you'll see.
