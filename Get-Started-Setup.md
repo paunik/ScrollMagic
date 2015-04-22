@@ -102,4 +102,4 @@ Let's do a quick recap to make sure you can do it from memory, it's not so much 
 1. Load the bridge between ScrollMagic and GSAP
 1. Load the debug file to get some visual cues when creating our animations
 
-All good ? Great, then we'll be able to go to our next step soon, creating a **Tween** ! It's okay if you have no idea what that is, don't worry.
+All good ? Great, then we'll be able to go to our next step soon, [creating a **Tween**](./Get-Started-First-Tween) ! It's okay if you have no idea what that is, don't worry.
