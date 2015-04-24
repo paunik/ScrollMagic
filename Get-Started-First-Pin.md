@@ -6,7 +6,7 @@ Alright, let's get to it
 
 # The Markup
 
-To code our first Pin we'll just reuse the markup from our previous example, removing the JS code that took care of the Tween. HTML and CSS stay the same and this is what our script tag contains :
+To code our first Pin we'll just reuse the markup from our [previous example](./Get-Started-First-Tween), removing the JS code that took care of the Tween. HTML and CSS stay the same and this is what our script tag contains :
 
     $(function() {
         var controller = new ScrollMagic.Controller();
