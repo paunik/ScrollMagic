@@ -24,3 +24,4 @@ using ScrollMagic with Tween.js
 
 1. [Setup](./Get-Started-Setup)
 1. [First Tween](./Get-Started-First-Tween)
+1. [First Pin](./Get-Started-First-Pin)
