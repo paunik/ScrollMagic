@@ -25,7 +25,7 @@ Compared to the browser globals the object looks like this:
 To use ScrollMagic in your setup you need to use these references as constructors.  
 Example:
 ```js
-require('ScrollMagic', 'ScrollMagic.debug'], function(ScrollMagic) {
+require(['ScrollMagic', 'ScrollMagic.debug'], function(ScrollMagic) {
     // init controller
     var controller = new ScrollMagic.Controller({
             globalSceneOptions: {triggerHook: "onCenter"}
