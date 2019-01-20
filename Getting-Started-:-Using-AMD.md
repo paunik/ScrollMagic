@@ -1,6 +1,6 @@
 ### Setting up the Config
 When using ScrollMagic make sure the paths to the source files of all dependencies are known.  
-Usually you may have to define them u sing the requirejs config.
+Usually you may have to define them using the requirejs config.
 ```js
 require.config({
     baseUrl: 'js',
